@@ -1,4 +1,4 @@
-# normatia-com
+# Normatia
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-normatia-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://normatia.com/
+Normatia provides an AI-powered platform for architects and engineers to assess regulatory compliance of construction projects in Spain. It offers free access to consult technical building regulations such as the CTE, municipal and autonomous norms, and provides exact article references. The service includes a searchable database, reports, and an assistant tool to help users navigate complex normative requirements without needing a subscription.
+
+**Areas:** Architecture · Engineering · Construction · Regulatory · AI
+
+## Normatia on APIs.io
+
+Everything profiled for Normatia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/normatia-com/](https://apis.io/providers/normatia-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Normatia Capas y cobertura API](https://apis.io/apis/normatia-com/normatia-com-capas-y-cobertura-api/) — Las capas de afección con sus fuentes y licencias, y qué hay cargado en cada municipio.
+- [Normatia Comprobaciones API](https://apis.io/apis/normatia-com/normatia-com-comprobaciones-api/) — Si un valor técnico cumple el límite de la normativa aplicable. Gastan un crédito.
+- [Normatia Consultas API](https://apis.io/apis/normatia-com/normatia-com-consultas-api/) — Preguntas en lenguaje natural sobre un proyecto, con fuentes. Gastan un crédito.
+- [Normatia Cuenta API](https://apis.io/apis/normatia-com/normatia-com-cuenta-api/) — La clave, su organización, el consumo y las claves.
+- [Normatia Entorno de pruebas API](https://apis.io/apis/normatia-com/normatia-com-entorno-de-pruebas-api/) — Lo que responde una clave de prueba (sk-normatia-test-): las parcelas de prueba y el caso que cubre cada una.
+- [Normatia Municipios API](https://apis.io/apis/normatia-com/normatia-com-municipios-api/) — Municipios, provincias y comunidades, con los datos técnicos de cada municipio y la norma de donde sale cada uno.
+- [Normatia Normativa (anterior) API](https://apis.io/apis/normatia-com/normatia-com-normativa-anterior-api/) — El catálogo normativo: buscar normas y leer sus versiones y su estructura.
+- [Normatia Normativa API](https://apis.io/apis/normatia-com/normatia-com-normativa-api/) — La normativa como dato: el catálogo, sus versiones con su vigencia, el índice y el texto de cada sección.
+- [Normatia Parcelas API](https://apis.io/apis/normatia-com/normatia-com-parcelas-api/) — La parcela por su referencia catastral, de la base territorial de Normatia: afecciones, planeamiento, edificación y geometría.
+- [Normatia Proyectos API](https://apis.io/apis/normatia-com/normatia-com-proyectos-api/) — Los proyectos de la organización de la clave y su contexto.
+- [Normatia Territorio (anterior) API](https://apis.io/apis/normatia-com/normatia-com-territorio-anterior-api/) — Municipios, provincias y comunidades, con sus datos técnicos y la normativa que les aplica.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Normatia Agentic Access](https://apis.io/agentic-access/normatia-com/normatia-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CodeVersionDetailResponse](https://apis.io/schemas/normatia-com/normatia-com-code-version-detail-response/)
+- [Parcel](https://apis.io/schemas/normatia-com/normatia-com-parcel/)
+- [PlaceDetail](https://apis.io/schemas/normatia-com/normatia-com-place-detail/)
+- [ProjectInfoResponse](https://apis.io/schemas/normatia-com/normatia-com-project-info-response/)
+- [VerifyRequest](https://apis.io/schemas/normatia-com/normatia-com-verify-request/)
+- [VerifyResponse](https://apis.io/schemas/normatia-com/normatia-com-verify-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Normatia Com Context](https://apis.io/jsonld/normatia-com/normatia-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Normatia API Rules](https://apis.io/rules/normatia-com/normatia-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Normatia Authentication](https://apis.io/security/normatia-com/normatia-com-authentication/)
+- [Normatia Domain Security](https://apis.io/security/normatia-com/normatia-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://normatia.com/)
+- [Documentation](https://docs.normatia.com/)
+- [API reference](https://docs.normatia.com/api-reference/)
+- [Blog](https://normatia.com/es/blog)
+
+## API Evangelist rating
+
+**Kin Score 40.8** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 10.6 |
+
+**Agent readiness 51.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/normatia-com/](https://apis.io/providers/normatia-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Normatia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/normatia-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
